@@ -45,9 +45,7 @@ void rehash(): Rehash function. Called when the number of elements in the hash t
 size_t myhash(const K &k): return the index of the vector entry where k should be stored.
 
 unsigned long prime_below (unsigned long) and void setPrimes(vector<unsigned long>&): two helpful functions to determine the proper prime numbers used in setting up the vector size. Whenever you need to set hash table to a new size "sz", call prime_below(sz) to determine the new proper underlying vector size. These two functions have been provided in hashtable.h and hashtable.hpp.
-Make sure to declare as const member functions any for which this is appropriate
-
-You need to write a simple test program to test various functions of hash table. More details are provided in a later part of this description.
+Make sure to declare as const member functions any for which this is appropriate.
 
 
 Task 2: Requirements of the Password Server Class (PassServer)
